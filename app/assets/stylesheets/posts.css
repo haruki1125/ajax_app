@@ -1,0 +1,9 @@
+.post{
+  border: 1px solid;
+  width: 40%;
+  margin: 30px;
+}
+
+.post-date{
+  color: gray;
+}
