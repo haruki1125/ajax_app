@@ -4,6 +4,7 @@ function memo() {
   submit.addEventListener("click", (e) => {
     const formData = new FormData(document.getElementById("form"));
     //new FormDataでフォームに入力された値を取得したオブジェクト作る
+    const XHR = new XMLHttpRequest();
     XHR.open("POST", "/posts", true);
     //openはメソッドの定義、パスの指定、非同期通信のON/OFF
     XHR.responseType = "json";
